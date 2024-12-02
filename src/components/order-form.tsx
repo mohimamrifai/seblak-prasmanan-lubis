@@ -15,7 +15,7 @@ export default function OrderForm() {
         <div className="flex flex-col-reverse gap-5 md:flex-row md:gap-10">
           <div data-aos="fade-in" className="md:w-6/12 flex justify-end group">
             <Image
-              src="/toko-seblak.jfif"
+              src="/toko-seblak.webp"
               alt="toko seblak"
               width={1000}
               height={1000}

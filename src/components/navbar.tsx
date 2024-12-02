@@ -48,7 +48,7 @@ export default function Navbar() {
       <Link href="/" className="flex items-center">
         <Image
           className="w-14 h-14 md:h-16 md:w-16"
-          src="/logo.png"
+          src="/logo.webp"
           alt="logo"
           width={1000}
           height={1000}

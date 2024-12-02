@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <div className="px-5 py-10 md:py-12 flex flex-col md:flex-row-reverse md:items-center md:px-[10%]">
       <div data-aos="fade-in">
-        <Image src="/logo.png" alt="hero" width={1000} height={1000} className="md:w-[600px]" />
+        <Image src="/logo.webp" alt="hero" width={1000} height={1000} className="md:w-[600px]" />
       </div>
       <div data-aos="fade-in" className="flex flex-col gap-5">
         <h1 className={`${abril.className} text-center text-5xl md:text-6xl font-bold text-red-700 md:text-left`}>
