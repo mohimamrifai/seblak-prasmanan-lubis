@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Address() {
   return (
-    <div data-aos="fade-up" className="md:px-20 px-10 py-10">
+    <div data-aos="fade-up" className="md:px-20 px-10 py-10 scroll-mt-20" id="lokasi">
       <p className="text-xl font-bold md:text-center md:text-2xl mb-5">Datang langsung ke tempat kami !</p>
       <div>
         <iframe

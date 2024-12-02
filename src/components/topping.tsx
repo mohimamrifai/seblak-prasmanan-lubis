@@ -6,27 +6,32 @@ const TOPPING = [
   {
     id: 1,
     name: "Telor Ayam",
-    href: "/telor.jfif",
+    href: "/telor.webp",
+    price: 2000,
   },
   {
     id: 2,
     name: "Jamur Enoki",
-    href: "/jamur-enoki.jfif",
+    href: "/jamur-enoki.webp",
+    price: 2000,
   },
   {
     id: 3,
     name: "Baso",
-    href: "/topping-bakso.jfif",
+    href: "/topping-bakso.webp",
+    price: 2000,
   },
   {
     id: 4,
     name: "Ceker",
-    href: "/ceker.jfif",
+    href: "/ceker.webp",
+    price: 2000,
   },
   {
     id: 5,
     name: "Lidah",
-    href: "/cuanki-lidah.jfif",
+    href: "/cuanki-lidah.webp",
+    price: 2000,
   },
 ];
 
@@ -40,10 +45,14 @@ export default function ListTopping() {
             alt={item.name}
             width={1000}
             height={1000}
-            className="h-48 group-hover:scale-105 duration-300 transition-all object-cover"
+            className="h-32 md:h-48 group-hover:scale-105 duration-300 transition-all object-cover"
           />
           <div className="p-3">
             <h2 className="font-bold text-red-700">{item.name}</h2>
+            <div className="flex flex-col">
+              <span className="text-sm text-gray-500 line-through">Rp. {(item.price + 1000).toLocaleString()}</span>
+              <span className="text-sm font-semibold">Rp {item.price.toLocaleString()}</span>
+            </div>
           </div>
         </Card>
       ))}

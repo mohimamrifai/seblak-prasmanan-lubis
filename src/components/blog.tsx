@@ -26,12 +26,12 @@ const posts = [
 
 export default function Blog() {
   return (
-    <div className="p-10 md:p-16">
+    <div className="py-10 md:py-16 px-5 md:px-[10%]" id="blog">
       <div className="grid grid-cols-1 gap-3 md:grid-cols-3">
         {posts.map((item) => (
           <Card data-aos="fade-in" className="overflow-hidden group" key={item.id}>
             <Image
-              src={"/seblak.jfif"}
+              src={"/seblak.webp"}
               alt={item.title}
               width={1000}
               height={1000}

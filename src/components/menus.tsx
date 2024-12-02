@@ -5,7 +5,7 @@ import ListTopping from "./topping";
 
 export default function Menus() {
   return (
-    <div className="px-5 md:px-[10%] py-10">
+    <div className="px-5 md:px-[10%] py-10" id="menu">
       <h1 data-aos="fade-in" className="text-2xl text-red-700 font-bold mb-3">
         Menu Andalan dan Berbagai pilihan Topping
       </h1>
